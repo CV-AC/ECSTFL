@@ -101,12 +101,12 @@ Sep, 6th, 2024: We released the code of first version.
      ```
 
 ### Checkpoint
-| Loss function     | Modality | Backbone    | Dataset  | accuracy | Checkpoint                                                                                                                                                                                                     |
-|:------------------|:---------|-------------|----------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cross-Entropy     | Video    | r3d_18      | DFEW fd1 | 62.02    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw ) [[drop box]](https://www.dropbox.com/scl/fi/r0mh851p1x8q94goe7be8/r3d_dfew.pth?rlkey=3vg0n2c1obx1l02rjea1kmans&st=s70rp8tm&dl=0) |
-| EC-STFL(gamma=10) | Video    | r3d_18      | DFEW fd1 | 64.08    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw ) [[drop box]](https://www.dropbox.com/scl/fi/pxlr57ag4ntjhe2x5uk49/r3d_ECSTFL_dfew.pth?rlkey=mydlbngt0kgb8xwl4atri63ak&st=2j6c4ccz&dl=0)                                                                                        |
-| Cross-Entropy     | Img      | resnet18    | RAF-DB   | xx.xx    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw) [[drop box]](https://www.google.com/)                                                                                         |
-| EC-STFL           | Img      | resnet18    | RAF-DB   | xx.xx    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw) [[drop box]](https://www.google.com/)                                                                                         |
+| Loss function     | Modality | Backbone    | Dataset  | accuracy | Checkpoint                                                                                                                                                                                                                 |
+|:------------------|:---------|-------------|----------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Cross-Entropy     | Video    | r3d_18      | DFEW fd1 | 62.02    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw ) [[drop box]](https://www.dropbox.com/scl/fi/r0mh851p1x8q94goe7be8/r3d_dfew.pth?rlkey=3vg0n2c1obx1l02rjea1kmans&st=s70rp8tm&dl=0)             |
+| EC-STFL(gamma=10) | Video    | r3d_18      | DFEW fd1 | 64.08    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw ) [[drop box]](https://www.dropbox.com/scl/fi/pxlr57ag4ntjhe2x5uk49/r3d_ECSTFL_dfew.pth?rlkey=mydlbngt0kgb8xwl4atri63ak&st=2j6c4ccz&dl=0)      |
+| Cross-Entropy     | Img      | resnet18    | RAF-DB   | 82.31    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw) [[drop box]](https://www.dropbox.com/scl/fi/vtv159qr542352796bvl5/resnet18_rafdb.pth?rlkey=72tdndwv3bd43lzvqceotd45u&st=5kkuqvlj&dl=0)        |
+| EC-STFL(gamma=10) | Img      | resnet18    | RAF-DB   | 83.18    | [[baidu drive (code:50ff)]](https://pan.baidu.com/s/1EdphDWzsDKCOB47DpRaqUw) [[drop box]](https://www.dropbox.com/scl/fi/eygu95em8jwftgn5e2e2l/resnet18_ECSTFL_rafdb.pth?rlkey=pkh7a4mv79ketk3l4n1kpr22i&st=w1tn08l6&dl=0) |
 
 
 
