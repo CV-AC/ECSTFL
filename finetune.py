@@ -32,7 +32,7 @@ parser.add_argument('-sss','--scheduler_stepsize', type=int, default=50)
 
 parser.add_argument('--list_file_val', type=str, default='./annotation/Imgs_test.csv', help='path of annotation file (.csv)')
 parser.add_argument('--list_file_train', type=str, default='./annotation/Img_test.csv', help='path of annotation file (img .csv; video .txt)')
-parser.add_argument('--model_name', type=str, default="resnet18_mscele1m", help="resnet18_mscele1m, r3d_dfew")
+parser.add_argument('--model_name', type=str, default="resnet18_ECSTFL_rafdb", help="resnet18_rafdb, resnet18_ECSTFL_rafdb, r3d_dfew, r3d_ECSTFL_dfew")
 parser.add_argument('--device', type=str, default='cpu')
 parser.add_argument('--type', type=str, default='img', help="img or video")
 parser.add_argument('--gamma', type=float, default=0, help='a float number')
