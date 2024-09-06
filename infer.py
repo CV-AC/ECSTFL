@@ -22,7 +22,7 @@ parser.add_argument('-j', '--workers', default=1, type=int, metavar='N', help='n
 parser.add_argument('-b', '--batch-size', default=32, type=int, metavar='N')
 parser.add_argument('-p', '--print-freq', default=10, type=int, metavar='N', help='print frequency')
 parser.add_argument('--list_file_val', type=str, default='./annotation/Imgs_test.csv', help='path of annotation file (.csv)')
-parser.add_argument('--model_name', type=str, default="resnet18_mscele1m")
+parser.add_argument('--model_name', type=str, default="resnet18_ECSTFL_rafdb", help="resne18_rafdb, resnet18_ECSTFL_rafdb, r3d_dfew, r3d_ECSTFL_dfew")
 parser.add_argument('--device', type=str, default='cpu')
 parser.add_argument('--type', type=str, default='img', help="img or video")
 
@@ -54,8 +54,6 @@ def main():
     if args.device == 'gpu':
         if args.model_name == "resnet18_rafdb":
             model = torchvision.models.resnet18(num_classes=7, pretrained=False)
-            #model_weights_path = './checkpoint_load/img_finetune-[09-05]-[14_38_42]--model_best.pth' # 79.73 # resnet18
-            #model_weights_path = './checkpoint_load/img_finetune-[09-05]-[17_46_51]--model.pth' # 79.12 # resnet18_ECSTFL_gamma=10
             model_weights_path = './checkpoint_load/resnet18_rafdb.pth'
             model_state = torch.load(model_weights_path)
             model.load_state_dict(model_state['state_dict'])
